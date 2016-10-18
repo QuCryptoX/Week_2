@@ -12,7 +12,7 @@
 # Output:
 #   reduced density matrix 
 
-function partialTrace(rho::Array{Float64} ,sub = "B"::ASCIIString)
+function partialTrace(rho ,sub = "B"::ASCIIString)
 
     # two-parties
     if size(rho)[1] == 4
